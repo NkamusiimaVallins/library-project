@@ -1,0 +1,33 @@
+body {
+    background-image:url("/home/mpaldowski/Downloads/erwin-smith-attack-3840x2160-22837.jpg");
+    margin: 0px;
+     background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    min-height: 100vh;
+}
+header{
+    
+    
+    margin-bottom: 10px;
+    padding-bottom: 10px;
+    text-align: center;
+    font-size: 50px;
+}
+.container{
+    
+    text-align: center;
+    margin-bottom: 5px;
+    margin-left: 0px;
+        display: grid;
+    grid-template-columns: repeat(3,1fr);
+}
+.bookDiv{
+    
+    text-align: center;
+    margin: 4px;
+    background-color: rgb(249, 252, 248);
+    height: fit-content;
+    border-radius: 20px;
+   
+}
